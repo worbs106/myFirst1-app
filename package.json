@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/worbs106/myFirst1-app/issues"
   },
-  "homepage": "https://github.com/worbs106/myFirst1-app#readme"
+  "homepage": "https://github.com/worbs106/myFirst1-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
