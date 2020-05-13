@@ -1,0 +1,19 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstNodeJS.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worbs106/myFirst1-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worbs106/myFirst1-app/issues"
+  },
+  "homepage": "https://github.com/worbs106/myFirst1-app#readme"
+}
