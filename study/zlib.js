@@ -5,6 +5,8 @@ var zlib = require('zlib');
 var fs = require("fs");
 var gzip = zlib.createGzip();
 
+var date1 = new Date();
+
 
 var input = fs.createReadStream('zlibExample.html');
 var output = fs.createWriteStream('zlibExample.html.gz');
@@ -12,6 +14,9 @@ var output = fs.createWriteStream('zlibExample.html.gz');
 input.pipe(gzip).pipe(output);
 
  //문자열 압축하기
+
+ console.logs(date1);
+
  var input = 'hello nodeJS';
  zlib.deflate(input, function(err, buffer) {
    if (!err) {
